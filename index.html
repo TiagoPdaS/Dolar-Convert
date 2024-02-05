@@ -8,10 +8,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>App convert Cash</title>
   </head>
   <body>
-    <img src="./assets/images/logo.gif" alt="logo convert money">
+    <img class="logo" src="./assets/images/logo.gif" alt="logo convert money">
     <main>
         <label>
             Converter <b>de</b>
@@ -34,16 +35,18 @@
         <button>Converter</button>
 
         <section>
-            <div>
+            <div class="currency-box">
                 <img src="./assets/images/brasil 2.png" alt="logo-da-moeda-a-converter"/>
-                <p>Real</p>
-                <p>R$ 0,00</p>
+                <p class="currency">Real</p>
+                <p class="currency-value">R$ 0,00</p>
             </div>
-            <img src="./assets/images/arrow.png" alt="image-arrow">
-            <div>
+
+            <img class="arrow-img" src="./assets/images/arrow.png" alt="image-arrow">
+           
+            <div class="currency-box">
                 <img src="./assets/images/dolar.png" alt="logo-da-moeda-convertida"/>
-                <p>Dolar</p>
-                <p>$ 0,00</p>
+                <p class="currency">Dolar</p>
+                <p class="currency-value">$ 0,00</p>
             </div>
         </section>
     </main>
