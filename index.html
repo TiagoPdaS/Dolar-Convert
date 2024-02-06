@@ -23,22 +23,22 @@
 
         <label>
             Converter <b>Para</b>
-            <select>
-                <option>$ Dolar Americano</option>
-                <option> € Euro</option>
+            <select class="currency-select">
+                <option value="dolar">$ Dolar Americano</option>
+                <option value="euro"> € Euro</option>
             </select>
         </label>
         <label>
             Valor
-            <input placeholder="R$ 10.000,00">
+            <input class="input-currency" placeholder="R$ 10.000,00">
         </label>
-        <button>Converter</button>
+        <button class="convert-button">Converter</button>
 
         <section>
             <div class="currency-box">
                 <img src="./assets/images/brasil 2.png" alt="logo-da-moeda-a-converter"/>
                 <p class="currency">Real</p>
-                <p class="currency-value">R$ 0,00</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
             <img class="arrow-img" src="./assets/images/arrow.png" alt="image-arrow">
@@ -51,4 +51,5 @@
         </section>
     </main>
   </body>
+  <script src="./script.js"></script>
 </html>
