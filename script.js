@@ -31,9 +31,10 @@ if(currencySelect.value == "euro"){
         currency: "BRL"
     }).format(inputCurrencyValue)
 
-   
+}   
+function changeCurrency(){
 
-    console.log(convertedValue)
 }
 
+currencySelect.addEventListener('change', changeCurrency)
 convertButton.addEventListener("click", convertValues)
