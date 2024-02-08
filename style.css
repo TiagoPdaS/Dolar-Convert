@@ -10,6 +10,7 @@
 
 body{
     background-color: #8A51FC;
+    height: auto;
 }
 
 .logo{
@@ -20,10 +21,12 @@ body{
 
 main{
     width: 375px;
+    height: 100%;
     background: #f4f4f4;
     border-radius: 20px;
     margin: 0 auto 40px;
     padding: 44px 24px 24px;
+   
 }
 
 label{
